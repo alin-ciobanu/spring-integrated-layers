@@ -25,7 +25,7 @@ public class Account {
     @Column(name = "EMAIL")
     private String email;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "ID_PERSON", referencedColumnName = "ID_PERSON")
     private Person person;
 

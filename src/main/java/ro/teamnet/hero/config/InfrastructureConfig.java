@@ -34,9 +34,9 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories
+@EnableJpaRepositories(basePackages = "ro.teamnet.hero.repository")
 @ComponentScan(basePackages =
-        {"ro.teamnet.hero.service", "ro.teamnet.hero.repository"})
+        {"ro.teamnet.hero.service"})
 public class InfrastructureConfig {
 
     @Bean(destroyMethod = "shutdown")
@@ -101,7 +101,7 @@ public class InfrastructureConfig {
 
     @Bean
     @Autowired
-    public org.springframework.transaction.PlatformTransactionManager transactionManagerCov(EntityManagerFactory entityManagerFactory) {
+    public org.springframework.transaction.PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
 
         return new JpaTransactionManager(entityManagerFactory);
 
