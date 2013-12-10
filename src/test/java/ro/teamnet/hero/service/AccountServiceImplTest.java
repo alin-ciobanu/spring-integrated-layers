@@ -11,6 +11,8 @@ import ro.teamnet.hero.config.InfrastructureConfig;
 import ro.teamnet.hero.domain.Account;
 import ro.teamnet.hero.domain.Person;
 
+import java.math.BigDecimal;
+
 /**
  * Created by yozmo on 12/10/13.
  */
@@ -49,5 +51,12 @@ public class AccountServiceImplTest {
     @Test
     public void testFindById() throws Exception {
 
+        // Daca nu merge createAccount, pica testul, dar nu am stiut cum sa
+        // adaug date in baza altfel.
+        Account testAccount = accountService.createAccount(account);
+        BigDecimal id = testAccount.getId();
+        Assert.assertEquals(id, accountService.findById(id).getId());
+
     }
+
 }

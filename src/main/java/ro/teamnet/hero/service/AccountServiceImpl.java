@@ -31,6 +31,6 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account findById(BigDecimal idAccount) {
-        return null;
+        return accountRepository.findOne(idAccount);
     }
 }
