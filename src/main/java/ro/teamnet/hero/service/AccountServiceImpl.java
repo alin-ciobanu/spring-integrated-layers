@@ -7,6 +7,7 @@ import ro.teamnet.hero.domain.Account;
 import ro.teamnet.hero.repository.AccountRepository;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * Created by yozmo on 12/10/13.
@@ -33,4 +34,10 @@ public class AccountServiceImpl implements AccountService {
     public Account findById(BigDecimal idAccount) {
         return accountRepository.findOne(idAccount);
     }
+
+    @Override
+    public List<Account> findAll() {
+        return accountRepository.findAll();
+    }
+
 }

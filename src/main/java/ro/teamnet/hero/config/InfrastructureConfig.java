@@ -55,7 +55,7 @@ public class InfrastructureConfig {
     public DatabasePopulator databasePopulator() {
 
         ResourceDatabasePopulator populator = new ResourceDatabasePopulator();
-//        populator.addScript(new ClassPathResource("Account.sql"));
+        populator.addScript(new ClassPathResource("structures.sql"));
         populator.addScript(new ClassPathResource("data.sql"));
         return populator;
 
