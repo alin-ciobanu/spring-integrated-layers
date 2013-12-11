@@ -40,4 +40,10 @@ public class AccountServiceImpl implements AccountService {
         return accountRepository.findAll();
     }
 
+    @Transactional
+    @Override
+    public void deleteAccount (BigDecimal idAccount) {
+        accountRepository.delete(idAccount);
+    }
+
 }

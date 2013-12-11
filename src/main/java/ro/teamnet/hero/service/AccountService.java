@@ -16,4 +16,6 @@ public interface AccountService {
 
     List<Account> findAll();
 
+    void  deleteAccount (BigDecimal idAccount);
+
 }

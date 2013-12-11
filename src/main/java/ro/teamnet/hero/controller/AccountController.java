@@ -6,14 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import ro.teamnet.hero.domain.Account;
 import ro.teamnet.hero.service.AccountService;
 
 import java.lang.reflect.Method;
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -55,6 +53,15 @@ public class AccountController {
                 exclude("person").
                 serialize(accountDetached),
                 HttpStatus.OK);
+
+    }
+
+    @RequestMapping(value = "/{accountId}", method = RequestMethod.DELETE)
+    @ResponseBody
+    public ResponseEntity<String> deleteAccount (@PathVariable("accountId")BigDecimal accountId) {
+
+        accountService.deleteAccount(accountId);
+        return this.accountList();
 
     }
 
