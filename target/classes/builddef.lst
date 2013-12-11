@@ -14,7 +14,11 @@ C:\Users\yozmo\IdeaProjects\spring-integrated-layers\target\classes
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\domain\Account.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\controller\AccountController.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\domain\Person.java
+C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\service\PersonServiceImpl.java
+C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\service\PersonService.java
+C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\repository\PersonRepository.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\config\InfrastructureConfig.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\service\AccountServiceImpl.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\service\AccountService.java
+C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\controller\PersonController.java
 C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\java\ro\teamnet\hero\repository\AccountRepository.java

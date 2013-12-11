@@ -3,7 +3,9 @@ package ro.teamnet.hero.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ro.teamnet.hero.domain.Account;
 import ro.teamnet.hero.domain.Person;
+import ro.teamnet.hero.repository.AccountRepository;
 import ro.teamnet.hero.repository.PersonRepository;
 
 import java.math.BigDecimal;
@@ -18,10 +20,12 @@ import java.util.List;
 public class PersonServiceImpl implements PersonService {
 
     private PersonRepository personRepository;
+    private AccountRepository accountRepository;
 
     @Autowired
-    public PersonServiceImpl(PersonRepository personRepository) {
+    public PersonServiceImpl(PersonRepository personRepository, AccountRepository accountRepository) {
         this.personRepository = personRepository;
+        this.accountRepository = accountRepository;
     }
 
     @Transactional

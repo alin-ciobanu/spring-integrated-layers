@@ -64,20 +64,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java">
+      <file leaf-file-name="PersonController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.48091602" vertical-offset="406" max-vertical-offset="799">
-              <folding />
+            <state line="60" column="33" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1207">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1082#1090#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
+      <file leaf-file-name="Account.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="397" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="816">
-              <folding />
+            <state line="27" column="68" selection-start="557" selection-end="557" vertical-scroll-proportion="0.49872774" vertical-offset="246" max-vertical-offset="1309">
+              <folding>
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +120,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/teamnet/hero/service/AccountServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
@@ -107,11 +130,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java" />
       </list>
     </option>
   </component>
@@ -339,6 +363,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -813,12 +867,12 @@
       <workItem from="1386774123063" duration="637000" />
       <workItem from="1386774794626" duration="18000" />
       <workItem from="1386774833758" duration="1141000" />
-      <workItem from="1386785383170" duration="5892000" />
+      <workItem from="1386785383170" duration="8591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25506000" />
+    <option name="totallyTimeSpent" value="28205000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -854,7 +908,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25755286" sideWeight="0.50119334" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1106,19 +1160,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.4.2.RELEASE/spring-data-jpa-1.4.2.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="127" selection-start="350" selection-end="350" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="476" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.6.2.RELEASE/spring-data-commons-1.6.2.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="134" selection-start="353" selection-end="353" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="162" selection-end="162" vertical-scroll-proportion="0.14496315" vertical-offset="94" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/hero/service/AccountServiceImplTest.java">
@@ -1128,11 +1172,6 @@
             <element signature="imports" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="68" selection-start="557" selection-end="557" vertical-scroll-proportion="0.7129032" vertical-offset="0" max-vertical-offset="969" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
@@ -1145,16 +1184,6 @@
         <state line="45" column="45" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.5064516" vertical-offset="196" max-vertical-offset="2176">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/structures.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.027419355" vertical-offset="0" max-vertical-offset="620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -1178,34 +1207,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="651" selection-end="704" vertical-scroll-proportion="0.41666666" vertical-offset="66" max-vertical-offset="1054">
-          <folding>
-            <element signature="e#1162#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/config/InfrastructureConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-0.9394737" vertical-offset="646" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.13486005" vertical-offset="15" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
@@ -1217,33 +1221,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/structures.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="7" vertical-scroll-proportion="0.04956268" vertical-offset="0" max-vertical-offset="343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="437" selection-end="437" vertical-scroll-proportion="-0.6870229" vertical-offset="423" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="408">
+        <state line="13" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.39440203" vertical-offset="15" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="476">
+        <state line="19" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="476">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.4.2.RELEASE/spring-data-jpa-1.4.2.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="397" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="816">
+        <state line="7" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="0.1859155" vertical-offset="36" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="5" selection-start="1827" selection-end="2107" vertical-scroll-proportion="0.826972" vertical-offset="576" max-vertical-offset="1054">
+          <folding>
+            <element signature="e#1162#1170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="162" selection-end="162" vertical-scroll-proportion="0.15012723" vertical-offset="94" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.48091602" vertical-offset="406" max-vertical-offset="799">
+        <state line="48" column="51" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.740458" vertical-offset="372" max-vertical-offset="833">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="33" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1207">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1082#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="68" selection-start="557" selection-end="557" vertical-scroll-proportion="0.49872774" vertical-offset="246" max-vertical-offset="1309">
+          <folding>
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
