@@ -1,5 +1,8 @@
 package ro.teamnet.hero.domain;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
@@ -25,8 +28,9 @@ public class Account {
     @Column(name = "EMAIL")
     private String email;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "ID_PERSON", referencedColumnName = "ID_PERSON")
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Person person;
 
     public BigDecimal getId() {
