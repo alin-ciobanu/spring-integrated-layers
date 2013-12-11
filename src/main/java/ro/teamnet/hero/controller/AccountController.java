@@ -58,7 +58,7 @@ public class AccountController {
 
     @RequestMapping(value = "/{accountId}", method = RequestMethod.DELETE)
     @ResponseBody
-    public ResponseEntity<String> deleteAccount (@PathVariable("accountId")BigDecimal accountId) {
+    public ResponseEntity<String> deleteAccount (@PathVariable("accountId") BigDecimal accountId) {
 
         accountService.deleteAccount(accountId);
         return this.accountList();

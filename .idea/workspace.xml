@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InfrastructureConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/config/InfrastructureConfig.java">
+      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1989">
+            <state line="42" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.48091602" vertical-offset="406" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -76,45 +76,7 @@
       <file leaf-file-name="AccountServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="79" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.697201" vertical-offset="627" max-vertical-offset="1054">
-              <folding>
-                <element signature="e#1162#1170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="25" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1870">
+            <state line="15" column="0" selection-start="397" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -134,7 +96,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/teamnet/hero/service/AccountServiceImplTest.java" />
@@ -143,9 +104,14 @@
         <option value="$PROJECT_DIR$/src/main/webapps/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/config/InfrastructureConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -363,6 +329,74 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-integrated-layers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -388,22 +422,24 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="ro.teamnet.hero.service" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ro.teamnet.hero.service" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ro.teamnet.hero.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ro.teamnet.hero.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yozmo\IdeaProjects\spring-integrated-layers\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ro.teamnet.hero.service in spring-integrated-layers">
@@ -777,12 +813,12 @@
       <workItem from="1386774123063" duration="637000" />
       <workItem from="1386774794626" duration="18000" />
       <workItem from="1386774833758" duration="1141000" />
-      <workItem from="1386785383170" duration="4776000" />
+      <workItem from="1386785383170" duration="5892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24390000" />
+    <option name="totallyTimeSpent" value="25506000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -805,7 +841,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -862,36 +898,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="867">
-          <folding>
-            <element signature="e#1162#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="34" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="4862">
@@ -1158,30 +1164,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/config/InfrastructureConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="34" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="4862">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
@@ -1193,19 +1178,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="816">
-          <folding />
+        <state line="11" column="24" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.697201" vertical-offset="627" max-vertical-offset="1054">
+        <state line="25" column="42" selection-start="651" selection-end="704" vertical-scroll-proportion="0.41666666" vertical-offset="66" max-vertical-offset="1054">
           <folding>
             <element signature="e#1162#1170#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/config/InfrastructureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-0.9394737" vertical-offset="646" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.13486005" vertical-offset="15" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/repository/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="78" selection-start="307" selection-end="351" vertical-scroll-proportion="0.38931298" vertical-offset="0" max-vertical-offset="393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="476">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="397" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="18" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.48091602" vertical-offset="406" max-vertical-offset="799">
+          <folding />
         </state>
       </provider>
     </entry>
