@@ -40,7 +40,7 @@ public class AccountController {
 
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(value = "new", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<String> createAccount (@RequestBody String json) {
 
@@ -62,6 +62,26 @@ public class AccountController {
 
         accountService.deleteAccount(accountId);
         return this.accountList();
+
+    }
+
+    @RequestMapping(method = RequestMethod.PUT)
+    @ResponseBody
+    public ResponseEntity<String> updateAccount (@RequestBody String json) {
+
+        Account accountTransient = new JSONDeserializer<Account>()
+                .use(null, Account.class)
+                .deserialize(json);
+        Account accountDetached = null;
+        if (accountService.findById(accountTransient.getId()) != null)
+            accountDetached = accountService.createAccount(accountTransient);
+        else
+            accountDetached = null;
+        return new ResponseEntity<String>(new JSONSerializer().
+                exclude("*.class").
+                exclude("person").
+                serialize(accountDetached),
+                HttpStatus.OK);
 
     }
 

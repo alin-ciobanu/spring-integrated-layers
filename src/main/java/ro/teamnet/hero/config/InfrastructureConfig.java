@@ -36,9 +36,8 @@ import javax.sql.DataSource;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "ro.teamnet.hero.repository")
-@EnableWebMvc
 @ComponentScan(basePackages =
-        {"ro.teamnet.hero.service", "ro.teamnet.hero.controller"})
+        {"ro.teamnet.hero.service"})
 public class InfrastructureConfig {
 
     @Bean(destroyMethod = "shutdown")
