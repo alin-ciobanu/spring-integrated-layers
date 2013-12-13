@@ -10,50 +10,49 @@ import org.springframework.web.bind.annotation.*;
 import ro.teamnet.hero.domain.Account;
 import ro.teamnet.hero.service.AccountService;
 
-import java.lang.reflect.Method;
 import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Created by yozmo on 12/11/13.
+ * AccountController.java
+ * <p/>
+ * Copyright (c) 2013 Teamnet. All Rights Reserved.
+ * <p/>
+ * This source file may not be copied, modified or redistributed,
+ * in whole or in part, in any form or for any reason, without the express
+ * written consent of Teamnet.
  */
 
 @Controller
 @RequestMapping("/account")
 public class AccountController {
-
     @Autowired
     private AccountService accountService;
 
-    @ResponseBody
     @RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<String> accountList() {
+    @ResponseBody
+    public ResponseEntity<String> accountList(){
 
-        List<Account> accountList = accountService.findAll();
-        JSONSerializer jsonSerializer = new JSONSerializer();
-        String accountListJson = jsonSerializer
+        List<Account> accountList=accountService.findAll();
+        JSONSerializer jsonSerializer=new JSONSerializer();
+        String accountListJson=jsonSerializer
                 .exclude("*.class")
                 .exclude("person")
                 .serialize(accountList);
-        ResponseEntity<String> ret = new ResponseEntity<String>(accountListJson, HttpStatus.OK);
-        return ret;
-
+        return new ResponseEntity<String>(accountListJson, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "new", method = RequestMethod.POST)
+    @RequestMapping(value = "/new", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<String> createAccount (@RequestBody String json) {
-
-        Account accountTransient = new JSONDeserializer<Account>()
+    public ResponseEntity<String> createAccount(@RequestBody String json){
+        Account accountTransient=new JSONDeserializer<Account>()
                 .use(null, Account.class)
                 .deserialize(json);
-        Account accountDetached = accountService.createAccount(accountTransient);
-        return new ResponseEntity<String>(new JSONSerializer().
-                exclude("*.class").
-                exclude("person").
-                serialize(accountDetached),
-                HttpStatus.OK);
-
+        Account accountDetached=accountService.createAccount(accountTransient);
+        return new ResponseEntity<String>(new JSONSerializer()
+                .exclude("*.class")
+                .exclude("person")
+                .serialize(accountDetached),HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{accountId}", method = RequestMethod.DELETE)

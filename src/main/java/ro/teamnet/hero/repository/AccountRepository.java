@@ -7,12 +7,16 @@ import ro.teamnet.hero.domain.Account;
 import java.math.BigDecimal;
 
 /**
- * Created by yozmo on 12/10/13.
+ * AccountRepository.java
+ * <p/>
+ * Copyright (c) 2013 Teamnet. All Rights Reserved.
+ * <p/>
+ * This source file may not be copied, modified or redistributed,
+ * in whole or in part, in any form or for any reason, without the express
+ * written consent of Teamnet.
  */
-
 @Repository
-public interface AccountRepository extends JpaRepository<Account, BigDecimal> {
+public interface AccountRepository extends JpaRepository<Account,BigDecimal>{
 
-    // DAO
-
+    Account findByUserName(String username);
 }

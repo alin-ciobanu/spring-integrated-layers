@@ -1,6 +1,8 @@
 package ro.teamnet.hero.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ro.teamnet.hero.domain.Account;
@@ -10,12 +12,19 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Created by yozmo on 12/10/13.
+ * AccountServiceImpl.java
+ * <p/>
+ * Copyright (c) 2013 Teamnet. All Rights Reserved.
+ * <p/>
+ * This source file may not be copied, modified or redistributed,
+ * in whole or in part, in any form or for any reason, without the express
+ * written consent of Teamnet.
  */
 
 @Service
 @Transactional(readOnly = true)
 public class AccountServiceImpl implements AccountService {
+
 
     private AccountRepository accountRepository;
 
@@ -46,4 +55,8 @@ public class AccountServiceImpl implements AccountService {
         accountRepository.delete(idAccount);
     }
 
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        return accountRepository.findByUserName(username);
+    }
 }

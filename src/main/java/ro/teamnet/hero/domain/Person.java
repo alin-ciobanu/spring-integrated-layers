@@ -4,19 +4,23 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 /**
- * Created by yozmo on 12/10/13.
+ * Person.java
+ * <p/>
+ * Copyright (c) 2013 Teamnet. All Rights Reserved.
+ * <p/>
+ * This source file may not be copied, modified or redistributed,
+ * in whole or in part, in any form or for any reason, without the express
+ * written consent of Teamnet.
  */
-
 @Entity
-@Table(name = "PERSON")
+@Table
 public class Person {
-
     @Id
-    @Column(name = "ID_PERSON")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="ID_PERSON")
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private BigDecimal id;
 
-    @Column(name = "FIRST_NAME")
+    @Column(name="FIRST_NAME")
     private String firstName;
 
     @Column(name = "LAST_NAME")
@@ -45,5 +49,4 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
 }
